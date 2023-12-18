@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LogIn">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="117dp"
+        android:layout_height="122dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="369dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/logo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginRight="30dp"
+        android:hint="Email"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="354dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/edt_email"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="30dp"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_password"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="140dp"
+        android:padding="15dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="140dp"
+        android:text="Sign Up" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ellipse_4" />
+
+</RelativeLayout>

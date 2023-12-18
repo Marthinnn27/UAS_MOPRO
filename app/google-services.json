@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "299532041543",
+    "project_id": "lasalle-chatting",
+    "storage_bucket": "lasalle-chatting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299532041543:android:d24df5f0e8491c41272062",
+        "android_client_info": {
+          "package_name": "com.example.delachat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDxOFmpo_YOy182I5VMM5RHaKvZIMNT5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
